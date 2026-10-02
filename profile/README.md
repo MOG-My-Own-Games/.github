@@ -1,4 +1,4 @@
-<img src="../res/logo.png" height="300px">
+<img src="../res/Mog-mascotte.png" height="300px">
 
 # MOG - My Own Games
 
@@ -10,7 +10,7 @@ self-hosted way to keep that problem solved once: point it at a folder of instal
 fetch metadata, and install any of them into a clean, isolated environment, on demand, the same way a
 storefront client would.
 
-**MOG is not a piracy tool.** It is for DRM-free games, games you own a legitimate copy of, and installers
+MOG is for DRM-free games, games you own a legitimate copy of, and installers
 you are otherwise entitled to run. It happens to be installer-format-agnostic (it drives whatever installer
 technology a title uses, generically), but it does not seek out, catalog, or promote any particular source
 of software.
