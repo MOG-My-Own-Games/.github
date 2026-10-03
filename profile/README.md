@@ -10,7 +10,7 @@ self-hosted way to keep that problem solved once: point it at a folder of instal
 fetch metadata, and install any of them into a clean, isolated environment, on demand, the same way a
 storefront client would.
 
-MOG is for DRM-free games, games you own a legitimate copy of, and installers
+MOG is for games you own a legitimate copy of, and installers
 you are otherwise entitled to run. It happens to be installer-format-agnostic (it drives whatever installer
 technology a title uses, generically), but it does not seek out, catalog, or promote any particular source
 of software.
@@ -22,6 +22,7 @@ of software.
   Wine/Proton environment with a VNC view, so you can install (or stream-install) a game without needing a
   Windows machine or doing it by hand on every client.
 - **[MOG-Client](https://github.com/MOG-My-Own-Games/MOG-Client)** - We provide a simple GUi and CLI client that talks to a MOG-Server. Is available for Linux and Windows, however we encourage the developers to integrate MOG as a game provider in their related softwares.
+The client is fully usable with a controller, comfortable for PC gaming handhelds such as Steam Deck.
 
 ## Where this came from
 
@@ -32,7 +33,8 @@ adapted from RomM's AGPLv3-licensed source (credited in `NOTICE.md` in that repo
 
 ## Getting started
 
-See each repo's own README for setup (`docker compose up` for the server, `pip install` for the CLI).
+Spin your own server via docker conainer and download the client.
+Check the related repositories for full information.
 
 ## License
 
