@@ -21,8 +21,7 @@ of software.
   library folders, fetches metadata (IGDB, SteamGridDB), and runs installers server-side inside a sandboxed
   Wine/Proton environment with a VNC view, so you can install (or stream-install) a game without needing a
   Windows machine or doing it by hand on every client.
-- **[MOG-Client](https://github.com/MOG-My-Own-Games/MOG-Client)** - talks to a MOG-Server. Starts as a
-  plain CLI; a multi-platform GUI client (Linux/Windows) is planned, along with save-file sync.
+- **[MOG-Client](https://github.com/MOG-My-Own-Games/MOG-Client)** - We provide a simple GUi and CLI client that talks to a MOG-Server. Is available for Linux and Windows, however we encourage the developers to integrate MOG as a game provider in their related softwares.
 
 ## Where this came from
 
