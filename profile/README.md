@@ -4,16 +4,15 @@
 
 **Keep and comfortably reinstall the PC game library you're entitled to.**
 
-Ownership of software you've paid for is getting harder to exercise: storefronts shut down, DRM servers go
-dark, and a working installer from ten years ago can be genuinely difficult to get running again. MOG is a
-self-hosted way to keep that problem solved once: point it at a folder of installers, and it will scan,
-fetch metadata, and install any of them into a clean, isolated environment, on demand, the same way a
-storefront client would.
+Ownership of software you've paid for is getting harder to exercise: storefronts shut down, DRM servers go dark, and a working installer from ten years ago can be genuinely difficult to get running again. MOG is a self-hosted way that is giving its own take on trying to solve that problem where possible: point it at a folder of installers, and it will scan them, fetch metadata, and install games into clean, isolated environments whenever you will click the install button in the same way a storefront client would.
 
-MOG is for games you own a legitimate copy of, and installers
-you are otherwise entitled to run. It happens to be installer-format-agnostic (it drives whatever installer
-technology a title uses, generically), but it does not seek out, catalog, or promote any particular source
-of software.
+Imagine having the same seamless experience as downloading a game from Steam or GOG Galaxy, except the games come from your own server, your own library, and remain under your control.
+
+With MOG, installing a game is as simple as clicking **Install**. The MOG Server handles the installer for you, installs the game in its isolated environment, and streams the resulting files directly to the MOG Client. You don't need to interact with the original installer, configure compatibility options, or manually move files around: just click **Install**, wait for it to finish, and **Play**.
+
+MOG is for games you own a legitimate copy of, and installers you are otherwise entitled to run. It is installer-format-agnostic: it drives whatever installer technology a title uses, generically, without requiring dedicated integration for each storefront or installer.
+MOG does not seek out, catalog, or promote any particular source. You provide the installers; MOG takes care of the rest.
+
 
 ## How it fits together
 
@@ -35,6 +34,22 @@ adapted from RomM's AGPLv3-licensed source (credited in `NOTICE.md` in that repo
 
 Spin your own server via docker conainer and download the client.
 Check the related repositories for full information.
+
+## What MOG is not
+
+* **Game downloader:** MOG does not download games from Steam, GOG, Epic, or other storefronts. You provide the installers you already own.
+* **Game library manager:** MOG keeps track of your library and the games it installs: it offers a basic interface with scraping and metadata, but comprehensive game collection management is not its purpose. Use [RomM](https://github.com/rommapp/romm) for a full multi-platform game library.
+* **Game launcher:** MOG Client can launch installed games, but you can use any launcher or frontend you prefer. MOG is launcher-agnostic.
+* **Game streaming service:** MOG streams installation data, not gameplay. Games run locally on the client.
+* **Game storefront:** MOG does not sell, distribute, or provide access to games. There is no marketplace or game catalogue.
+* **DRM bypass:** MOG does not crack games or remove DRM. It works with software and installers you are legitimately entitled to use.
+* **Compatibility layer:** MOG is not a replacement for Wine, Proton, or other compatibility technologies. It uses the environment available on the target system to run Windows games.
+
+## Developer integrations
+
+MOG is designed to work alongside other software, not replace it. We encourage developers of game managers, launchers, frontends, and other related tools to integrate **MOG as an installation provider**.
+This allows your software to handle the library and user experience while delegating game installation and management to MOG. If your project could benefit from letting users install games from their own MOG Server, we'd love to see an integration.
+
 
 ## License
 
