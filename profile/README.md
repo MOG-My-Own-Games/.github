@@ -2,6 +2,8 @@
 
 # MOG - My Own Games
 
+**DISCLAIMER:** this project is vibe coded with a solid and continous human testing and hard human projecting and supervision.
+
 **Keep and comfortably reinstall the PC game library you're entitled to.**
 
 Ownership of software you've paid for is getting harder to exercise: storefronts shut down, DRM servers go dark, and a working installer from ten years ago can be genuinely difficult to get running again. MOG is a self-hosted way that is giving its own take on trying to solve that problem where possible: point it at a folder of installers, and it will scan them, fetch metadata, and install games into clean, isolated environments whenever you will click the install button in the same way a storefront client would.
@@ -44,6 +46,8 @@ Check the related repositories for full information.
 * **Game storefront:** MOG does not sell, distribute, or provide access to games. There is no marketplace or game catalogue.
 * **DRM bypass:** MOG does not crack games or remove DRM. It works with software and installers you are legitimately entitled to use.
 * **Compatibility layer:** MOG is not a replacement for Wine, Proton, or other compatibility technologies. It uses the environment available on the target system to run Windows games.
+* **An exposable server:** MOG is vibecoded and no security accessment was one on the code, so developers cannot ensure security. The developers highly suggest to **do not expose it on the internet**, keep it in the safe network of your LAN.
+Devlopers do not support such usage nor taking responsabilities for the use of this software.
 
 ## Developer integrations
 
