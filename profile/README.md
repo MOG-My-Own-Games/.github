@@ -1,4 +1,4 @@
-<img src="../res/Mog-mascotte.png" height="300px">
+<img src="../res/Mog-mascotte.png" height="350px">
 
 # MOG - My Own Games
 
