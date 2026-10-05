@@ -54,7 +54,20 @@ Devlopers do not support such usage nor taking responsabilities for the use of t
 MOG is designed to work alongside other software, not replace it. We encourage developers of game managers, launchers, frontends, and other related tools to integrate **MOG as an installation provider**.
 This allows your software to handle the library and user experience while delegating game installation and management to MOG. If your project could benefit from letting users install games from their own MOG Server, we'd love to see an integration.
 
+## Meet Mog
 
-## License
+This is **Mog**, the mascot of the software of the same name, **MOG**.
+She's a **gamer cat-bat**: part cat, part creature of the night, and 100% obsessed with video games.
+Feel free to draw and share **fan art of Mog**! So we'd love to see what you come up with.
 
-MOG-Server is AGPLv3. MOG-Client is GPLv3. See each repo for details.
+<img src="../res/MOG-mascotte-character-study.png" height="400px">
+
+## Licenses
+
+MOG-Server is licensed under **AGPLv3**.
+
+MOG-Client is licensed under **GPLv3**.
+
+**Mog**, the MOG mascot, is released under a **Creative Commons license**. Fan art is welcome, provided it is not used to impersonate official MOG communications, promote hate or discrimination, or for political propaganda.
+
+ See each repository for details.
