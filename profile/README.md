@@ -16,14 +16,84 @@ MOG is for games you own a legitimate copy of, and installers you are otherwise 
 MOG does not seek out, catalog, or promote any particular source. You provide the installers; MOG takes care of the rest.
 
 
-## How it fits together
+### How it fits together
 
-- **[MOG-Server](https://github.com/MOG-My-Own-Games/MOG-Server)** - the self-hosted piece. Scans your
+## MOG Server
+**[MOG-Server](https://github.com/MOG-My-Own-Games/MOG-Server)** - the self-hosted piece. Scans your
   library folders, fetches metadata (IGDB, SteamGridDB), and runs installers server-side inside a sandboxed
   Wine/Proton environment with a VNC view, so you can install (or stream-install) a game without needing a
   Windows machine or doing it by hand on every client.
-- **[MOG-Client](https://github.com/MOG-My-Own-Games/MOG-Client)** - We provide a simple GUi and CLI client that talks to a MOG-Server. Is available for Linux and Windows, however we encourage the developers to integrate MOG as a game provider in their related softwares.
+
+### Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="../res/screenshots/server-game-list.png" width="400">
+      <br>
+      <b>Game Library</b><br>
+    </td>
+    <td align="center">
+      <img src="../res/screenshots/server-game-overview.png" width="400">
+      <br>
+      <b>Game Overview</b><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="../res/screenshots/server-install.png" width="400">
+      <br>
+      <b>Game Installation</b><br>
+      A containerized installer engine uses OCR to automagically install your games
+    </td>
+    <td align="center">
+      <img src="../res/screenshots/server-proton.png" width="400">
+      <br>
+      <b>Wine / Proton</b><br>
+      Configure the environment used to run installers
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="../res/screenshots/server-scraper.png" width="400">
+      <br>
+      <b>Metadata Scraper</b><br>
+      Automatically retrieve game metadata
+      from metadata providers,
+      allows user picked media
+    </td>
+    <td align="center">
+      <img src="../res/screenshots/server-saves.png" width="400">
+      <br>
+      <b>Save Management</b><br>
+      Manage and synchronize game saves
+    </td>
+  </tr>
+</table>
+
+## MOG Client
+**[MOG-Client](https://github.com/MOG-My-Own-Games/MOG-Client)** - We provide a simple GUi and CLI client that talks to a MOG-Server. Is available for Linux and Windows, however we encourage the developers to integrate MOG as a game provider in their related softwares.
 The client is fully usable with a controller, comfortable for PC gaming handhelds such as Steam Deck.
+
+### Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="../res/screenshots/client-game-list.png" width="400">
+      <br>
+      <b>Game Library</b><br>
+    </td>
+    <td align="center">
+      <img src="../res/screenshots/client-game-details.png" width="400">
+      <br>
+      <b>Game Details</b><br>
+    </td>
+  </tr>
+</table>
+
+## Installation demo
+<video src="../res/screenshots/demo.mp4" controls></video>
 
 ## Where this came from
 
