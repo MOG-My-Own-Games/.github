@@ -93,7 +93,7 @@ The client is fully usable with a controller, comfortable for PC gaming handheld
 </table>
 
 ## Installation demo
-<video src="https://github.com/MOG-My-Own-Games/.github/raw/refs/heads/main/res/screenshots/demo.mp4" controls></video>
+https://github.com/user-attachments/assets/cfbb748b-da24-461c-85fd-3874f66e66fe
 
 ## Where this came from
 
