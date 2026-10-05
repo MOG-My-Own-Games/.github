@@ -93,7 +93,7 @@ The client is fully usable with a controller, comfortable for PC gaming handheld
 </table>
 
 ## Installation demo
-<a href="https://youtu.be/feH7Jq6ueLg"><img src="https://youtu.be/feH7Jq6ueLg" alt="Installation demo" />
+<iframe width="1779" height="538" src="https://www.youtube.com/embed/feH7Jq6ueLg" title="MOG - Installation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Where this came from
 
