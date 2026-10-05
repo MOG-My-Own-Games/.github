@@ -93,7 +93,7 @@ The client is fully usable with a controller, comfortable for PC gaming handheld
 </table>
 
 ## Installation demo
-https://github.com/user-attachments/assets/cfbb748b-da24-461c-85fd-3874f66e66fe
+https://github.com/user-attachments/assets/aba9919b-077b-4643-97bb-2b94c50aae93
 
 ## Where this came from
 
