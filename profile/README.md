@@ -150,6 +150,8 @@ The client is fully usable with a controller, comfortable for PC gaming handheld
 ## Installation demo
 [![Installation demo](https://img.youtube.com/vi/feH7Jq6ueLg/0.jpg)](https://www.youtube.com/watch?v=feH7Jq6ueLg)
 
+NOTE: the video was maded before the graphics revamp
+
 ## Where this came from
 
 MOG began as a feature proposal for [RomM](https://github.com/rommapp/romm), a FOSS ROM manager, which
