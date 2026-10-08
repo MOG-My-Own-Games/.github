@@ -162,6 +162,12 @@ adapted from RomM's AGPLv3-licensed source (credited in `NOTICE.md` in that repo
 Spin your own server via docker conainer and download the client.
 Check the related repositories for full information.
 
+## Support
+
+MOG is free, and it will stay free. If you like it and want to chip in, you can buy me a coffee.
+
+<a href="https://ko-fi.com/xargon"><img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Buy me a coffee on Ko-fi" height="46"></a>
+
 ## What MOG is not
 
 * **Game downloader:** MOG does not download games from Steam, GOG, Epic, or other storefronts. You provide the installers you already own.
