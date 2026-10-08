@@ -185,6 +185,8 @@ Devlopers do not support such usage nor taking responsabilities for the use of t
 MOG is designed to work alongside other software, not replace it. We encourage developers of game managers, launchers, frontends, and other related tools to integrate **MOG as an installation provider**.
 This allows your software to handle the library and user experience while delegating game installation and management to MOG. If your project could benefit from letting users install games from their own MOG Server, we'd love to see an integration.
 
+The **[Integration guide](https://github.com/MOG-My-Own-Games/MOG-Server/blob/main/docs/INTEGRATION.md)** explains in detail how to use a MOG Server from another client: authentication, the install flow step by step, streaming and verifying the files, optional save sync and mods, what [MOG Client](https://github.com/MOG-My-Own-Games/MOG-Client) does around all of it, and a small working example.
+
 ## Meet Mog
 
 This is **Mog**, the mascot of the software of the same name, **MOG**.
