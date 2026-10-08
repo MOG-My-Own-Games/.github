@@ -162,6 +162,19 @@ adapted from RomM's AGPLv3-licensed source (credited in `NOTICE.md` in that repo
 Spin your own server via docker conainer and download the client.
 Check the related repositories for full information.
 
+## Importing saves in MOG
+
+At the moment it is not possible to automatically import save data from the same version of a game played outside MOG. However, you can do it manually (tested on Linux) by running the game once:
+
+- Install the game via Mog Client
+- Launch the game via Mog Client
+- Close the game
+- Copy the saves to the MOG installed game
+- Press "Backup Saves Now" on the MOG Launcher in the game options
+- In that case, they will be found and synced.
+
+Alternatively, you can recreate the save structure and upload it. Check other games' structure by downloading a save bundle from the MOG Server.
+
 ## Support
 
 MOG is free, and it will stay free. If you like it and want to chip in, you can buy me a coffee.
