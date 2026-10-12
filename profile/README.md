@@ -6,16 +6,36 @@
 
 <img src="../res/screenshots/Jazz2-install.gif">
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/MOG-My-Own-Games/MOG-Client/releases/latest">
+          <img src="../res/MOG-client.png" alt="Download Client" height="80">
+          <br>
+          <h3>Download Client</h3>
+        </a>
+      </td>
+      <td align="center" style="padding-left: 40px;">
+        <a href="https://github.com/MOG-My-Own-Games/MOG-Server">
+          <img src="../res/MOG-server.png" alt="Setup Server" height="80">
+          <br>
+          <h3>Setup Server</h3>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
 **Keep and comfortably reinstall the PC game library you're entitled to.**
 
-Ownership of software you've paid for is getting harder to exercise: storefronts shut down, DRM servers go dark, and a working installer from ten years ago can be genuinely difficult to get running again. MOG is a self-hosted way that is giving its own take on trying to solve that problem where possible: point it at a folder of installers, and it will scan them, fetch metadata, and install games into clean, isolated environments whenever you will click the install button in the same way a storefront client would.
+MOG is a self-hosted game installation system that turns your collection of game installers into a private, storefront-like experience.
 
-Imagine having the same seamless experience as downloading a game from Steam or GOG Galaxy, except the games come from your own server, your own library, and remain under your control.
+Keep your installers on your own server, browse your game library, and click **Install**. MOG runs installers in isolated environments and streams the resulting game files directly to your device, without manually copying files or running installers yourself.
 
-With MOG, installing a game is as simple as clicking **Install**. The MOG Server handles the installer for you, installs the game in its isolated environment, and streams the resulting files directly to the MOG Client. You don't need to interact with the original installer, configure compatibility options, or manually move files around: just click **Install**, wait for it to finish, and **Play**.
+MOG supports different installer technologies and includes **save synchronization across devices**, so you can keep your game progress in sync between installations.
 
-MOG is for games you own a legitimate copy of, and installers you are otherwise entitled to run. It is installer-format-agnostic: it drives whatever installer technology a title uses, generically, without requiring dedicated integration for each storefront or installer.
-MOG does not seek out, catalog, or promote any particular source. You provide the installers; MOG takes care of the rest.
+<b><p align="center">Browse, Install, Play, with your saves synced!</p></b>
 
 <img src="../res/mog-question.png" height="350px">
 
