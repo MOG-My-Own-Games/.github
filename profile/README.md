@@ -2,7 +2,9 @@
 
 # MOG - My Own Games
 
-**DISCLAIMER:** this project is vibe coded with a solid and continous human testing and hard human projecting and supervision.
+**DISCLAIMER:** this project is AI coded with a solid and continous human testing, full human projecting and supervision.
+
+<img src="../res/screenshots/Jazz2-install.gif">
 
 **Keep and comfortably reinstall the PC game library you're entitled to.**
 
